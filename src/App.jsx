@@ -1,3 +1,4 @@
+
 import { Routes, Route } from 'react-router-dom'
 
 import Navbar from './components/Navbar'
@@ -9,7 +10,7 @@ import Cart from './pages/Cart'
 
 function App() {
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <a
         href="#main"
         className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:bg-white focus:text-forest focus:p-3 focus:rounded-lg focus:ring-2 focus:ring-sage"
@@ -19,7 +20,7 @@ function App() {
 
       <Navbar />
 
-      <main id="main" tabIndex="-1">
+      <main id="main" tabIndex="-1" className="flex-1">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products/:productId" element={<ProductDetails />} />
@@ -29,7 +30,7 @@ function App() {
       </main>
 
       <Footer />
-    </>
+    </div>
   )
 }
 
