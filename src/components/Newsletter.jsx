@@ -1,3 +1,4 @@
+
 import { useState } from 'react'
 
 function Newsletter() {
@@ -28,7 +29,6 @@ function Newsletter() {
 
   return (
     <section className="bg-pale-green rounded-2xl p-8 md:p-12 mt-16 text-center">
-
       <h2 className="text-2xl md:text-3xl font-bold text-forest">
         A little stationery inspiration?
       </h2>
@@ -39,6 +39,7 @@ function Newsletter() {
 
       <form
         onSubmit={handleSubmit}
+        noValidate
         className="flex flex-col sm:flex-row gap-3 max-w-xl mx-auto"
       >
         <div className="flex-1 text-left">
@@ -79,8 +80,8 @@ function Newsletter() {
 
       <p
         id="newsletter-message"
-        role="status"
-        aria-live="polite"
+        role={status === 'error' ? 'alert' : 'status'}
+        aria-live={status === 'error' ? 'assertive' : 'polite'}
         className={`mt-4 font-medium ${
           status === 'error'
             ? 'text-red-700'
@@ -89,7 +90,6 @@ function Newsletter() {
       >
         {message}
       </p>
-
     </section>
   )
 }
