@@ -9,13 +9,14 @@ function ProductCard({ product }) {
 
       <div className="bg-pale-green h-48">
         <img
-          src={product.image}
-          alt={product.name}
-          width="300"
-          height="192"
-          className="w-full h-full object-cover"
-          loading="lazy"
-        />
+  src={product.image}
+  alt={product.name}
+  width="300"
+  height="192"
+  className="w-full h-full object-cover"
+  loading="lazy"
+  decoding="async"
+/>
       </div>
 
       <div className="p-4">

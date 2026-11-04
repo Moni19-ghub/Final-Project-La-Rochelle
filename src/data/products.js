@@ -5,7 +5,7 @@ const products = [
     category: "Pens & Markers",
     price: 89.99,
     description: "A set of soft pastel highlighters for notes and studying.",
-    image:"/images/Pastel Highlighter Set.jpg"
+    image: "/images/optimized/Pastel Highlighter Set.webp"
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const products = [
     category: "Pens & Markers",
     price: 69.99,
     description: "Smooth-writing gel pens in assorted colours.",
-    image:"/images/Colour Gel Pens.jpg"
+    image: "/images/optimized/Colour Gel Pens.webp"
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const products = [
     category: "Notebooks",
     price: 129.99,
     description: "A beautiful hardcover notebook for everyday notes.",
-    image:"/images/Floral Hardcover Notebook.jpg"
+    image: "/images/optimized/Floral Hardcover Notebook.webp"
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const products = [
     category: "Notebooks",
     price: 39.99,
     description: "Colourful sticky notes for reminders and planning.",
-    image:"/images/Pastel Sticky Notes.jpg"
+    image: "/images/optimized/Pastel Sticky Notes.webp"
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const products = [
     category: "Notebooks",
     price: 99.99,
     description: "Organise your week with this simple planner.",
-    image:"/images/Weekly Planner.jpg"
+    image: "/images/optimized/Weekly Planner.webp"
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const products = [
     category: "Desk Accessories",
     price: 79.99,
     description: "A spacious pencil case for your stationery essentials.",
-    image:"/images/Cute Pencil Case.jpg"
+    image: "/images/optimized/Cute Pencil Case.webp"
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ const products = [
     category: "Desk Accessories",
     price: 149.99,
     description: "Keep your desk neat with this compact organiser.",
-    image:"/images/Mini Desk Organiser.jpg"
+    image: "/images/optimized/Mini Desk Organiser.webp"
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const products = [
     category: "Desk Accessories",
     price: 59.99,
     description: "Decorative tape for journals, planners and crafts.",
-    image:"/images/Washi Tape Set.jpg"
+    image: "/images/optimized/Washi Tape Set.webp"
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ const products = [
     category: "Art Supplies",
     price: 119.99,
     description: "A beginner-friendly watercolour paint set.",
-    image:"/images/Watercolour Paint Set.jpg"
+    image: "/images/optimized/Watercolour Paint Set.webp"
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ const products = [
     category: "Art Supplies",
     price: 89.99,
     description: "A blank sketchbook for drawing and creativity.",
-    image:"/images/Sketchbook.jpg"
+    image: "/images/optimized/Sketchbook.webp"
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ const products = [
     category: "Art Supplies",
     price: 109.99,
     description: "Brush pens for lettering, colouring and illustrations.",
-    image:"/images/Brush Pen Set.jpg"
+    image: "/images/optimized/Brush Pen Set.webp"
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ const products = [
     category: "Notebooks",
     price: 34.99,
     description: "Handy page markers for books, notes and textbooks.",
-    image:"/images/Pastel Sticky Tabs.jpg"
+    image: "/images/optimized/Pastel Sticky Tabs.webp"
   }
 ]
 

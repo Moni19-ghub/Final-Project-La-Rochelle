@@ -40,13 +40,14 @@ function ProductDetails() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8">
 
         <div className="bg-pale-green rounded-2xl h-96 overflow-hidden">
-          <img
-            src={product.image}
-            alt={product.name}
-            width="600"
-            height="384"
-            className="w-full h-full object-cover"
-          />
+<img
+  src={product.image}
+  alt={product.name}
+  width="600"
+  height="384"
+  className="w-full h-full object-cover"
+  decoding="async"
+/>
         </div>
 
         <div>
